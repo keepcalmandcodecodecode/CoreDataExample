@@ -14,9 +14,18 @@
 		8C0F54BD1D2EFC7600B00E87 /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F54BB1D2EFC7600B00E87 /* CoreDataExample.xcdatamodeld */; };
 		8C0F54BF1D2EFC7600B00E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F54BE1D2EFC7600B00E87 /* Assets.xcassets */; };
 		8C0F54C21D2EFC7600B00E87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F54C01D2EFC7600B00E87 /* LaunchScreen.storyboard */; };
+		8C0F54EC1D2F059900B00E87 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0F54EB1D2F059900B00E87 /* CoreData.framework */; };
+		8C0F55171D2F0BC400B00E87 /* Author+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F550C1D2F0BC400B00E87 /* Author+CoreDataProperties.m */; };
+		8C0F55181D2F0BC400B00E87 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F550E1D2F0BC400B00E87 /* Author.m */; };
+		8C0F55191D2F0BC400B00E87 /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F55101D2F0BC400B00E87 /* Book+CoreDataProperties.m */; };
+		8C0F551A1D2F0BC400B00E87 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F55121D2F0BC400B00E87 /* Book.m */; };
+		8C0F551B1D2F0BC400B00E87 /* Publisher+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F55141D2F0BC400B00E87 /* Publisher+CoreDataProperties.m */; };
+		8C0F551C1D2F0BC400B00E87 /* Publisher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F55161D2F0BC400B00E87 /* Publisher.m */; };
+		FCC003F19129361F53EAA019 /* libPods-CoreDataExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10654914C7957628CCABB3B0 /* libPods-CoreDataExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10654914C7957628CCABB3B0 /* libPods-CoreDataExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoreDataExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0F54AC1D2EFC7600B00E87 /* CoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0F54B01D2EFC7600B00E87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C0F54B21D2EFC7600B00E87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +37,21 @@
 		8C0F54BE1D2EFC7600B00E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C0F54C11D2EFC7600B00E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C0F54C31D2EFC7600B00E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0F54EB1D2F059900B00E87 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8C0F550B1D2F0BC400B00E87 /* Author+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Author+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8C0F550C1D2F0BC400B00E87 /* Author+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Author+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8C0F550D1D2F0BC400B00E87 /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		8C0F550E1D2F0BC400B00E87 /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
+		8C0F550F1D2F0BC400B00E87 /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8C0F55101D2F0BC400B00E87 /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8C0F55111D2F0BC400B00E87 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		8C0F55121D2F0BC400B00E87 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		8C0F55131D2F0BC400B00E87 /* Publisher+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Publisher+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8C0F55141D2F0BC400B00E87 /* Publisher+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Publisher+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8C0F55151D2F0BC400B00E87 /* Publisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Publisher.h; sourceTree = "<group>"; };
+		8C0F55161D2F0BC400B00E87 /* Publisher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Publisher.m; sourceTree = "<group>"; };
+		ECEF39C2C7BC541227F14F04 /* Pods-CoreDataExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataExample/Pods-CoreDataExample.debug.xcconfig"; sourceTree = "<group>"; };
+		FCC199C0843A8169E4CE35E8 /* Pods-CoreDataExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataExample/Pods-CoreDataExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C0F54EC1D2F059900B00E87 /* CoreData.framework in Frameworks */,
+				FCC003F19129361F53EAA019 /* libPods-CoreDataExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F6E5F30F7A8FF5B06C78376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECEF39C2C7BC541227F14F04 /* Pods-CoreDataExample.debug.xcconfig */,
+				FCC199C0843A8169E4CE35E8 /* Pods-CoreDataExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8C0F54A31D2EFC7500B00E87 = {
 			isa = PBXGroup;
 			children = (
 				8C0F54AE1D2EFC7600B00E87 /* CoreDataExample */,
 				8C0F54AD1D2EFC7600B00E87 /* Products */,
+				4F6E5F30F7A8FF5B06C78376 /* Pods */,
+				C2DA2AC2FA213A6A5FB4269A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +97,7 @@
 		8C0F54AE1D2EFC7600B00E87 /* CoreDataExample */ = {
 			isa = PBXGroup;
 			children = (
+				8C0F54ED1D2F059F00B00E87 /* Entities */,
 				8C0F54B21D2EFC7600B00E87 /* AppDelegate.h */,
 				8C0F54B31D2EFC7600B00E87 /* AppDelegate.m */,
 				8C0F54B51D2EFC7600B00E87 /* ViewController.h */,
@@ -82,6 +120,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8C0F54ED1D2F059F00B00E87 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F550B1D2F0BC400B00E87 /* Author+CoreDataProperties.h */,
+				8C0F550C1D2F0BC400B00E87 /* Author+CoreDataProperties.m */,
+				8C0F550D1D2F0BC400B00E87 /* Author.h */,
+				8C0F550E1D2F0BC400B00E87 /* Author.m */,
+				8C0F550F1D2F0BC400B00E87 /* Book+CoreDataProperties.h */,
+				8C0F55101D2F0BC400B00E87 /* Book+CoreDataProperties.m */,
+				8C0F55111D2F0BC400B00E87 /* Book.h */,
+				8C0F55121D2F0BC400B00E87 /* Book.m */,
+				8C0F55131D2F0BC400B00E87 /* Publisher+CoreDataProperties.h */,
+				8C0F55141D2F0BC400B00E87 /* Publisher+CoreDataProperties.m */,
+				8C0F55151D2F0BC400B00E87 /* Publisher.h */,
+				8C0F55161D2F0BC400B00E87 /* Publisher.m */,
+			);
+			name = Entities;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C2DA2AC2FA213A6A5FB4269A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F54EB1D2F059900B00E87 /* CoreData.framework */,
+				10654914C7957628CCABB3B0 /* libPods-CoreDataExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C0F54C61D2EFC7600B00E87 /* Build configuration list for PBXNativeTarget "CoreDataExample" */;
 			buildPhases = (
+				6B688A3624C358460F7C9F70 /* [CP] Check Pods Manifest.lock */,
 				8C0F54A81D2EFC7600B00E87 /* Sources */,
 				8C0F54A91D2EFC7600B00E87 /* Frameworks */,
 				8C0F54AA1D2EFC7600B00E87 /* Resources */,
+				C650DA66BCBDC63213E7A957 /* [CP] Embed Pods Frameworks */,
+				6F4EAE3E12D70C0BA08800F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,14 +217,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B688A3624C358460F7C9F70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4EAE3E12D70C0BA08800F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreDataExample/Pods-CoreDataExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C650DA66BCBDC63213E7A957 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreDataExample/Pods-CoreDataExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C0F54A81D2EFC7600B00E87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C0F55171D2F0BC400B00E87 /* Author+CoreDataProperties.m in Sources */,
 				8C0F54B71D2EFC7600B00E87 /* ViewController.m in Sources */,
+				8C0F55181D2F0BC400B00E87 /* Author.m in Sources */,
 				8C0F54B41D2EFC7600B00E87 /* AppDelegate.m in Sources */,
+				8C0F551A1D2F0BC400B00E87 /* Book.m in Sources */,
+				8C0F551B1D2F0BC400B00E87 /* Publisher+CoreDataProperties.m in Sources */,
+				8C0F551C1D2F0BC400B00E87 /* Publisher.m in Sources */,
 				8C0F54B11D2EFC7600B00E87 /* main.m in Sources */,
+				8C0F55191D2F0BC400B00E87 /* Book+CoreDataProperties.m in Sources */,
 				8C0F54BD1D2EFC7600B00E87 /* CoreDataExample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +389,7 @@
 		};
 		8C0F54C71D2EFC7600B00E87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEF39C2C7BC541227F14F04 /* Pods-CoreDataExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoreDataExample/Info.plist;
@@ -276,6 +401,7 @@
 		};
 		8C0F54C81D2EFC7600B00E87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC199C0843A8169E4CE35E8 /* Pods-CoreDataExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoreDataExample/Info.plist;
@@ -304,6 +430,7 @@
 				8C0F54C81D2EFC7600B00E87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
